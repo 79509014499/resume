@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Электромонтажные работы, электромонтаж в Туле, Электрика в Туле, Электрика, Электрик Тула">
     <meta name="description" content="Это сайт для ремонтных работ по электрике в Туле">
+    <link rel="stylesheet" href="styls.css">
     <title>Document</title>
-</head>
+    
 <body>
-    <img src="Моя фотография.jpeg" alt="Здесть мое фото" width="250">
+    <div class="container">
+   <div class="info">
+    <img src="Моя фотография.jpeg" alt="Здесть мое фото" class="avatar">
+    <div class="info-text">
     <h1>Дмитрий Чекулаев</h1>
     
     <p>Я один из <strong><em>инженеров</em></strong> Тульской области по внутренним отделочным ремонтным работам</p>
     <p>В работе использую <strong><em>высокотехнолочные</em></strong> современные решения</p>
-    <p>Список соц.сетей:
-      <p> <a href="https://vk.com/id74470293" target="_blank">Vkontakte</a> |
+    <h4>Список соц.сетей:
+    </h4> <a href="https://vk.com/id74470293" target="_blank">Vkontakte</a> |
   <a href="https://studio.youtube.com/channel/UC7cUOigpmgECATiuqW4-Vdw" target="_blank">Youtube</a>  </p> 
     </p>
+</div>
+</div>
     <br>
+    <div class="card bg-blue">
     <h2>Мои хобби</h2>
-    <ul>
+    <ul class="list">
         <li>Музыка</li>
         <li>Путешествия</li>
         <li>Спорт</li>
         <li>Компьютерные игры</li>
     </ul>
-
+</div>
+<div class="card bg-violet">
     <h3>Опыт работы</h3>
-   <table>
+   <table class="table">
     <thead>
         <tr>
         <th>Наименование</th>
@@ -49,27 +57,32 @@
     
     </tbody>
     </table>
+</div>
     <hr>
-    <h1>Связаться со мной</h1>
-    <form>
-        <div>
+  
+    <form action="/" class="form">
+        <h1>Связаться со мной</h1>
+        <div class="form-rom">
+        <div class="form-group">
         <label for="text">Ваше имя:</label>
         <input type="text" id="text" placeholder="Введите имя">
     </div>
     <br>
 
-    <div>
+    <div class="form-group">
         <label for="email">Ваш email:</label>
         <input type="email" id="email" placeholder="Введите email">
     </div>
+</div>
     <br>
-    <div>
+    <div class="form-group">
         <label for="message">Сообщение</label>
         <br>
         <textarea name="message" id="message" cols="80" rows="5" placeholder="Введите сообщение..."></textarea>
     </div>
-    <input type="submit" value="Отправить">
+    <input class="btn" type="submit" value="Отправить">
     </form>
+</div>
     <br>
     <br>
     <br>
